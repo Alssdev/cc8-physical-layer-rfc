@@ -25,6 +25,7 @@ export const menu_items: { title: string; href: string }[] = [
 export const side_nav_menu_order: string[] = [
   "getting-started",
   "guides",
+  "guides/how-to-wire",
   "guides/pages",
   "guides/table-of-contents",
   "guides/sidebar-navigation",
