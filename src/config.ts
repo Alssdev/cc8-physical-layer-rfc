@@ -1,12 +1,12 @@
 import type { SocialObjects } from "@/lib/types";
 
 export const SITE = {
-  website: "https://hyperoot.dev", // replace this with your deployed domain
-  author: "HYP3R00T",
-  desc: "Documentation template using Astro and Shadcn",
-  title: "CelestialDocs",
+  website: "https://alssdev.github.io/cc8-physical-layer-rfc/", // replace this with your deployed domain
+  author: "Alessandro y Gaby",
+  desc: "Documentation for CC8 Physical Layer Project.",
+  title: "Physical Layer CC8",
   ogImage: "og-image.jpg",
-  repo: "https://github.com/HYP3R00T/CelestialDocs",
+  repo: "https://github.com/Alssdev/cc8-physical-layer-rfc",
 };
 
 export const LOCALE = {
@@ -50,7 +50,7 @@ export const docconfig = {
 export const Socials: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/HYP3R00T/",
+    href: "https://github.com/Alssdev/cc8-physical-layer-rfc",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -74,7 +74,7 @@ export const Socials: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:rajesh@hyperoot.dev",
+    href: "mailto:alessandro.morales@galileo.edu",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
@@ -142,6 +142,6 @@ export const Socials: SocialObjects = [
     name: "Mastodon",
     href: "https://mastodon.social/@hyp3r00t",
     linkTitle: `${SITE.title} on Mastodon`,
-    active: true,
+    active: false,
   },
 ];
