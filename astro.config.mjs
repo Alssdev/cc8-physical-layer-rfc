@@ -6,7 +6,8 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://alssdev.github.io/cc8-physical-layer-rfc",
+  site: "https://alssdev.github.io",
+  base: "/cc8-physical-layer-rfc",
   markdown: {
     smartypants: true,
     syntaxHighlight: "shiki",
